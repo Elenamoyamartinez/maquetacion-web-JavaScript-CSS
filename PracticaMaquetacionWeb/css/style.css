@@ -1,0 +1,79 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.contenedor{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.logo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.menu{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: red;
+    color: white;
+}
+.noticia1{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 3%;
+}
+.divFotoNoticia1{
+    width: 58%;
+    margin-left: 2%;
+}
+.textoNoticia1{
+    width: 35%;
+    margin-left: 2%;
+}
+.titularNoticia1{
+    font-weight:bold;
+    font-size: 1.5em;
+}
+.contenidoNoticia1{
+    text-align: justify;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+.boton{
+    display: flex;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    margin-right: 80%;
+}
+.tamano1{
+    width: 100%;
+}
+.noticia2{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    font-weight:bold;
+    margin-bottom: 5%;
+}
+.imagenesPeques{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.divImagenPaisaje{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    font-weight:bold;
+    font-size: 0.8em;
+}
